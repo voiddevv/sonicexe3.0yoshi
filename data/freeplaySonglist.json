@@ -1,0 +1,47 @@
+{
+	"songs": [
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard"
+			],
+			"char": "eggman-pray",
+			"color": "#81091C",
+			"name": "pray",
+			"bpm": 120
+		},
+		{
+			"displayName": "too slow",
+			"difficulties": [
+				"Hard",
+				"encore"
+			],
+			"char": "sonicexe",
+			"color": "#1056E5",
+			"name": "too-slow",
+			"bpm": 150
+		},
+		{
+			"displayName": "you cant run",
+			"difficulties": [
+				"Hard",
+				"encore"
+			],
+			"char": "ycrsonic",
+			"color": "#200ABD",
+			"name": "you-cant-run",
+			"bpm": 140
+		},
+		{
+			"bpm": 146,
+			"difficulties": [
+				"Hard",
+				"encore"
+			],
+			"displayName": "triple trouble",
+			"char": "xeno",
+			"name": "triple-trouble",
+			"color": "#E402F2"
+		}
+	]
+}

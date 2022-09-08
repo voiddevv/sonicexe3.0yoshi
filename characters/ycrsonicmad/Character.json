@@ -1,0 +1,93 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -110,
+		"y": 160
+	},
+	"globalOffset": {
+		"x": -50,
+		"y": 50
+	},
+	"healthbarColor": "#160D87",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 175,
+			"y": -59,
+			"anim": "just_die",
+			"loop": false,
+			"name": "justdie",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "mad_idle",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 38,
+			"y": -107,
+			"anim": "laugh_Instance",
+			"loop": false,
+			"name": "laugh",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 83,
+			"y": -78,
+			"anim": "mad_right",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 64,
+			"y": -97,
+			"anim": "mad_down",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 199,
+			"y": -17,
+			"anim": "mad_left",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 14,
+			"y": 168,
+			"anim": "mad_up",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

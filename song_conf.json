@@ -1,0 +1,50 @@
+{
+	"songs": [
+		{
+			"scripts": [
+				"stages/pray"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "pray"
+		},
+		{
+			"scripts": [
+				"stages/too-slow"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "too-slow"
+		},
+		{
+			"scripts": [
+				"stages/too-slow"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "too-slow-encore"
+		},
+		{
+			"scripts": [
+				"stages/cant-run-xd",
+				"qwertyuiop:/events/comevents"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "you-cant-run"
+		},
+		{
+			"scripts": [
+				"stages/triplestage"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "triple-trouble"
+		}
+	]
+}

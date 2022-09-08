@@ -1,0 +1,19 @@
+{
+    "antialiasing": true,
+    "scale": 1.3,
+    "useColorShader": true,
+    "animations": [
+        {
+            "name": "splash1",
+            "x": -114,
+            "y": -105,
+            "fps": 30
+        },
+        {
+            "name": "splash2",
+            "x": -107,
+            "y": -95,
+            "fps": 24
+        }
+    ]
+}
