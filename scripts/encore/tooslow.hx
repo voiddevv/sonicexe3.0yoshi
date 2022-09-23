@@ -20,14 +20,17 @@ function static() {
 		FlxTween.tween(sstatic, {alpha: 0}, .2);
 	};
 	FlxG.sound.play(Paths.sound("staticBUZZ"));
+
 }
 
 function jump() {
-	add(jumpimg);
-	jumpimg.alpha = 1;
 	FlxTween.tween(jumpimg, {alpha: 0}, 1);
 	jumpimg.cameras = [camHUD];
+	jumpimg.setGraphicSize(FlxG.width, FlxG.height);
+	jumpimg.updatehitbox();
     jumpimg.screenCenter();
+	add(jumpimg);
+	jumpimg.alpha = 1;
 	FlxG.sound.play(Paths.sound("sppok"));
 }
 

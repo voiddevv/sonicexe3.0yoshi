@@ -1,14 +1,13 @@
 {
 	"songs": [
 		{
-			"displayName": null,
 			"difficulties": [
 				"Hard"
 			],
-			"char": "eggman-pray",
-			"color": "#81091C",
-			"name": "pray",
-			"bpm": 120
+			"char": "eggman",
+			"color": "#1056E5",
+			"name": "prey",
+			"bpm": 150
 		},
 		{
 			"displayName": "too slow",

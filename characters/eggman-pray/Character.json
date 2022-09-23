@@ -1,8 +1,8 @@
 {
 	"arrowColors": null,
 	"camOffset": {
-		"x": -100,
-		"y": 200
+		"x": -250,
+		"y": 50
 	},
 	"globalOffset": {
 		"x": 110,
@@ -22,15 +22,6 @@
 		},
 		{
 			"indices": null,
-			"x": 2,
-			"y": 5,
-			"anim": "starved down",
-			"loop": false,
-			"name": "singDOWN",
-			"framerate": 24
-		},
-		{
-			"indices": null,
 			"x": 5,
 			"y": 0,
 			"anim": "starved right",
@@ -41,10 +32,10 @@
 		{
 			"indices": null,
 			"x": 2,
-			"y": -9,
-			"anim": "starved up",
+			"y": 5,
+			"anim": "starved down",
 			"loop": false,
-			"name": "singUP",
+			"name": "singDOWN",
 			"framerate": 24
 		},
 		{
@@ -54,6 +45,15 @@
 			"anim": "starved left",
 			"loop": false,
 			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 2,
+			"y": -9,
+			"anim": "starved up",
+			"loop": false,
+			"name": "singUP",
 			"framerate": 24
 		},
 		{

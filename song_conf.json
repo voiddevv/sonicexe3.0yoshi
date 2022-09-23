@@ -39,12 +39,21 @@
 		},
 		{
 			"scripts": [
-				"stages/triplestage"
+				"stages/triplestage",
+				"qwertyuiop:/events/comevents"
 			],
 			"difficulties": null,
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "triple-trouble"
+		},
+		{
+			"end_cutscene": null,
+			"cutscene": null,
+			"difficulties": [],
+			"scripts": [],
+			"name": "you-cant-run-encore"
 		}
-	]
+	],
+	"global_scripts": []
 }

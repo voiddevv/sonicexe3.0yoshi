@@ -8,7 +8,7 @@
 		"x": 40,
 		"y": 320
 	},
-	"healthbarColor": "#000000",
+	"healthbarColor": "#5E5858",
 	"flipX": false,
 	"anims": [
 		{
@@ -22,15 +22,6 @@
 		},
 		{
 			"indices": null,
-			"x": 36,
-			"y": -52,
-			"anim": "Tails DOWN",
-			"loop": false,
-			"name": "singDOWN",
-			"framerate": 24
-		},
-		{
-			"indices": null,
 			"x": 13,
 			"y": -19,
 			"anim": "Tails RIGHT",
@@ -40,11 +31,11 @@
 		},
 		{
 			"indices": null,
-			"x": 24,
-			"y": 38,
-			"anim": "Tails UP",
+			"x": 36,
+			"y": -52,
+			"anim": "Tails DOWN",
 			"loop": false,
-			"name": "singUP",
+			"name": "singDOWN",
 			"framerate": 24
 		},
 		{
@@ -54,6 +45,15 @@
 			"anim": "Tails LEFT",
 			"loop": false,
 			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 24,
+			"y": 38,
+			"anim": "Tails UP",
+			"loop": false,
+			"name": "singUP",
 			"framerate": 24
 		}
 	],
