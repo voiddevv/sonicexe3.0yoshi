@@ -30,6 +30,10 @@ function stepHit(curStep:Int) {
         case 1296:
             PlayState.dad.switchCharacter(mod + ':kunk');
             dad.x += 850;
+            camGame
+        case 2832:
+            PlayState.dad.switchCharacter(mod + ":eggman");
+            dad.x = 500;
 
         
     }
