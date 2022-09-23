@@ -88,8 +88,6 @@ function stepHit(curStep:Int) {
 			FlxTween.tween(blackbar2,{y: -400}, .75);
 			bgspeed = 0.025;
 			floorspeed = 0.030;
-			//remove(blackbar);
-			//remove(blackbar2);
 		case 2450:
 			FlxTween.tween(theguy2,{x: 3000}, 6);
         case 3331:
@@ -105,6 +103,5 @@ function stepHit(curStep:Int) {
 			BLACK.y = 0;
 			BLACK.x = -200;
 			FlxTween.tween(camHUD,{alpha: 0}, .66);
-
         }
 }
