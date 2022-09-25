@@ -12,6 +12,12 @@ function createPost() {
     preloadchar("xeno");
     preloadchar("eggman");
     preloadchar("kunk");
+    cpuStrums.members[2].visible = false;
+	cpuStrums.members[1].x += 50;
+	cpuStrums.members[0].x += 50;
+	cpuStrums.members[4].x -= 65;
+	cpuStrums.members[3].x -= 65;
+	camFollowLerp = 0.12;
 }
 function jump() {
 	add(jumpimg);
@@ -30,7 +36,6 @@ function stepHit(curStep:Int) {
         case 1296:
             PlayState.dad.switchCharacter(mod + ':kunk');
             dad.x += 850;
-            camGame
         case 2832:
             PlayState.dad.switchCharacter(mod + ":eggman");
             dad.x = 500;

@@ -27,7 +27,7 @@ function jump() {
 	FlxTween.tween(jumpimg, {alpha: 0}, 1);
 	jumpimg.cameras = [camHUD];
 	jumpimg.setGraphicSize(FlxG.width, FlxG.height);
-	jumpimg.updatehitbox();
+	jumpimg.updateHitbox();
     jumpimg.screenCenter();
 	add(jumpimg);
 	jumpimg.alpha = 1;
@@ -86,7 +86,6 @@ function stepHit(curStep:Int) {
 			FlxG.camera.flash(0xff0000, .5);
 		case 400, 402, 404, 406, 408, 410, 412, 414,1424,1428,1432,1436:
 			dad.playAnim("laugh", true);
-			addcamzoom(1.1,0.11);
 		case 918:
 			blackshit();
 			add(dad2);

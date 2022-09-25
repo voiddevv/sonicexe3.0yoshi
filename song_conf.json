@@ -1,4 +1,5 @@
 {
+	"global_scripts": [],
 	"songs": [
 		{
 			"scripts": [
@@ -29,8 +30,7 @@
 		},
 		{
 			"scripts": [
-				"stages/cant-run-xd",
-				"qwertyuiop:/events/comevents"
+				"stages/cant-run-xd"
 			],
 			"difficulties": null,
 			"end_cutscene": null,
@@ -39,8 +39,7 @@
 		},
 		{
 			"scripts": [
-				"stages/triplestage",
-				"qwertyuiop:/events/comevents"
+				"stages/triplestage"
 			],
 			"difficulties": null,
 			"end_cutscene": null,
@@ -48,12 +47,11 @@
 			"name": "triple-trouble"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "you-cant-run-encore"
 		}
-	],
-	"global_scripts": []
+	]
 }

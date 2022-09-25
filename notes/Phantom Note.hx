@@ -28,12 +28,13 @@ function onMiss() {
 }
 
 function onPlayerHit() {
-	FlxG.random.resetInitialSeed();
-	healthdrain += 0.04;
-    trace(healthdrain);
-    new FlxTimer().start((FlxG.random.int(5,30)), function(tmr:FlxTimer) {
-		healthdrain -= 0.01;
+	healthdrain += 0.01;
+    new FlxTimer().start(( FlxG.random.int(5,160)
+    ), function(tmr:FlxTimer) {
+		FlxG.random.resetInitialSeed();
+		healthdrain = 0.00;
 	});
+
 }
 function updatePost(elapsed) {
     health -= healthdrain*elapsed;
