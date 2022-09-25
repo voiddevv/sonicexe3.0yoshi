@@ -22,11 +22,11 @@
 		},
 		{
 			"indices": null,
-			"x": 12,
-			"y": 204,
-			"anim": "Eggman_Laugh",
+			"x": 62,
+			"y": -100,
+			"anim": "Eggman_Down",
 			"loop": false,
-			"name": "laugh",
+			"name": "singDOWN",
 			"framerate": 24
 		},
 		{
@@ -40,11 +40,20 @@
 		},
 		{
 			"indices": null,
-			"x": 62,
-			"y": -100,
-			"anim": "Eggman_Down",
+			"x": 12,
+			"y": 204,
+			"anim": "Eggman_Laugh",
 			"loop": false,
-			"name": "singDOWN",
+			"name": "laugh",
+			"framerate": 30
+		},
+		{
+			"indices": null,
+			"x": 128,
+			"y": 238,
+			"anim": "Eggman_Up",
+			"loop": false,
+			"name": "singUP",
 			"framerate": 24
 		},
 		{
@@ -54,15 +63,6 @@
 			"anim": "Eggman_Left",
 			"loop": false,
 			"name": "singLEFT",
-			"framerate": 24
-		},
-		{
-			"indices": null,
-			"x": 128,
-			"y": 238,
-			"anim": "Eggman_Up",
-			"loop": false,
-			"name": "singUP",
 			"framerate": 24
 		}
 	],

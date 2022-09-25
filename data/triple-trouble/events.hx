@@ -12,6 +12,8 @@ function createPost() {
     preloadchar("xeno");
     preloadchar("eggman");
     preloadchar("kunk");
+    preloadchar("bfflip");
+    preloadchar("povbf");
     cpuStrums.members[2].visible = false;
 	cpuStrums.members[1].x += 50;
 	cpuStrums.members[0].x += 50;

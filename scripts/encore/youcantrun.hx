@@ -1,5 +1,5 @@
 var greenhill:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image("stages/ycr/GreenHill"));
-var blackshit = new FlxSprite().makeGraphic(1280 * 2, 720 * 2, 0xff000000);
+var blackshit = new FlxSprite().makeGraphic(1920 * 2, 1080 * 2, 0xff000000);
 var cir:FlxSprite = new FlxSprite(600, 0).loadGraphic(Paths.image("StartScreens/Circle-you-cant-run"));
 var text:FlxSprite = new FlxSprite(-600, 0).loadGraphic(Paths.image("StartScreens/Text-you-cant-run"));
 function preloadchar(char:Character) {

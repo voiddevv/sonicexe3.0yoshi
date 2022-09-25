@@ -1,5 +1,4 @@
 {
-	"global_scripts": [],
 	"songs": [
 		{
 			"scripts": [
@@ -53,5 +52,6 @@
 			"cutscene": null,
 			"name": "you-cant-run-encore"
 		}
-	]
+	],
+	"global_scripts": []
 }
