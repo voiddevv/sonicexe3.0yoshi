@@ -10,37 +10,47 @@
 			"bpm": 150
 		},
 		{
+			"difficulties": [
+				"Hard",
+				"encore"
+			],
 			"displayName": "too slow",
-			"difficulties": [
-				"Hard",
-				"encore"
-			],
 			"char": "sonicexe",
-			"color": "#1056E5",
+			"bpm": 150,
 			"name": "too-slow",
-			"bpm": 150
+			"color": "#1056E5"
 		},
 		{
+			"difficulties": [
+				"Hard",
+				"encore"
+			],
 			"displayName": "you cant run",
-			"difficulties": [
-				"Hard",
-				"encore"
-			],
 			"char": "ycrsonic",
-			"color": "#200ABD",
+			"bpm": 140,
 			"name": "you-cant-run",
-			"bpm": 140
+			"color": "#200ABD"
 		},
 		{
-			"bpm": 146,
+			"displayName": "triple trouble",
 			"difficulties": [
 				"Hard",
 				"encore"
 			],
-			"displayName": "triple trouble",
 			"char": "xeno",
+			"color": "#E402F2",
 			"name": "triple-trouble",
-			"color": "#E402F2"
+			"bpm": 146
+		},
+		{
+			"difficulties": [
+				"Hard"
+			],
+			"displayName": null,
+			"char": "fatal error",
+			"bpm": 240,
+			"name": "fatality",
+			"color": "#A90000"
 		}
 	]
 }

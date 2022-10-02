@@ -2,8 +2,8 @@ var sonicrunfas:Boyfriend = new Boyfriend(700,800, mod + ":sonic-pray2");
 var eggman:Character = new Character(-450, 1050, mod + ":eggman-pray");
 var floor:FlxBackdrop = new FlxBackdrop(Paths.image("stages/pray/stardustFloor"),1.1, 1,true,false);
 var bg:FlxBackdrop = new FlxBackdrop(Paths.image("stages/pray/stardustBg"),-1.5, 1,true,false);
-var floorspeed = 0.020;
-var bgspeed = 0.015;
+var floorspeed = 2000;
+var bgspeed = 1500;
 var RED:FlxSprite = new FlxSprite().makeGraphic(FlxG.width * 2, FlxG.height * 2, 0xffff0000);
 var BLACK:FlxSprite = new FlxSprite().makeGraphic(FlxG.width * 6, FlxG.height * 4, 0xff000000);
 var blackbar:FlxSprite = new FlxSprite().makeGraphic(FlxG.width * 2, 200, 0xff000000);
@@ -15,8 +15,12 @@ function create() {
 	bg.y += 400;
 	defaultCamZoom = 1;
 	add(bg);
+	
 }
 function createPost() {
+	for(i in playerStrums){
+		trace(i.x);
+	}
 	bg.visible = false;
 	add(theguy);
 	theguy.screenCenter();
@@ -27,8 +31,6 @@ function createPost() {
 	floor.visible = false;
 	PlayState.dad.visible = false;
 	gf.visible = false;
-	trace(PlayState.boyfriend.x);
-    trace(PlayState.boyfriend.y);
 	PlayState.boyfriend.y = 1300;
 	add(floor);
 	floor.screenCenter();
@@ -46,8 +48,8 @@ function createPost() {
 	add(blackbar2);
 }
 function update(elapsed) {
-	floor.x -= floorspeed / elapsed;
-	bg.x -= bgspeed / elapsed;
+	floor.x -= floorspeed * elapsed;
+	bg.x -= bgspeed * elapsed;
 }
 function changetoegg() {
 	trace('redhead');
@@ -86,8 +88,8 @@ function stepHit(curStep:Int) {
 			PlayState.add(sonicrunfas);   
 			FlxTween.tween(blackbar,{y: 800}, .75);
 			FlxTween.tween(blackbar2,{y: -400}, .75);
-			bgspeed = 0.025;
-			floorspeed = 0.030;
+			bgspeed = 2500;
+			floorspeed = 3000;
 		case 2450:
 			FlxTween.tween(theguy2,{x: 3000}, 6);
         case 3331:

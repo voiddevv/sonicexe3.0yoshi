@@ -100,15 +100,10 @@ function stepHit(curStep:Int) {
 			dad2.kill();
 		case 1544:
 			jump2();
-			
-
         case 1888:
             FlxTween.tween(camGame,{alpha:0},3.2);
             add(RED);
             RED.cameras = [camHUD];
             FlxTween.tween(camHUD,{alpha:0},3.1,{ease: FlxEase.quadOut});
-
-
-
 	}
 }

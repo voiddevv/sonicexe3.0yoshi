@@ -1,8 +1,8 @@
 {
 	"arrowColors": null,
 	"camOffset": {
-		"x": 0,
-		"y": 0
+		"x": 210,
+		"y": 10
 	},
 	"globalOffset": {
 		"x": -700,
@@ -94,20 +94,20 @@
 		},
 		{
 			"indices": null,
-			"x": 38,
-			"y": -5,
-			"anim": "BF NOTE RIGHT0",
-			"loop": false,
-			"name": "singRIGHT",
-			"framerate": 24
-		},
-		{
-			"indices": null,
 			"x": -11,
 			"y": -19,
 			"anim": "BF NOTE DOWN MISS",
 			"loop": false,
 			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -44,
+			"y": -5,
+			"anim": "BF NOTE LEFT0",
+			"loop": false,
+			"name": "singRIGHT",
 			"framerate": 24
 		},
 		{
@@ -121,9 +121,9 @@
 		},
 		{
 			"indices": null,
-			"x": -40,
-			"y": -10,
-			"anim": "BF NOTE LEFT0",
+			"x": 36,
+			"y": -4,
+			"anim": "BF NOTE RIGHT0",
 			"loop": false,
 			"name": "singLEFT",
 			"framerate": 24

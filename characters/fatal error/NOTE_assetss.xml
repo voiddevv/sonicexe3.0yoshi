@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="notes.png">
+<SubTexture name="arrowLEFT0000" x="0" y="0" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="arrowDOWN0000" x="17" y="0" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="arrowUP0000" x="0" y="17" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="arrowRIGHT0000" x="17" y="17" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes noteleft0000" x="34" y="0" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes notedown0000" x="34" y="17" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes noteup0000" x="0" y="34" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes noteright0000" x="17" y="34" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes idle0000" x="34" y="34" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes idle0001" x="51" y="0" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes idle0002" x="51" y="17" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes idle0003" x="51" y="34" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitleft0000" x="0" y="51" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitdown0000" x="17" y="51" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitup0000" x="34" y="51" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitright0000" x="51" y="51" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitdown0001" x="68" y="17" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitup0001" x="68" y="34" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitright0001" x="68" y="51" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes hitleft0001" x="68" y="0" width="17" height="17" frameX="0" frameY="0" frameWidth="17" frameHeight="17" />
+<SubTexture name="notes lefthold0000" x="0" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes downhold0000" x="0" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes uphold0000" x="0" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes righthold0000" x="0" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes leftend0000" x="7" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes rightend0000" x="7" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes downend0000" x="7" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+<SubTexture name="notes upend0000" x="7" y="68" width="7" height="6" frameX="0" frameY="0" frameWidth="7" frameHeight="6" />
+</TextureAtlas>

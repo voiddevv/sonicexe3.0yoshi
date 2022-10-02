@@ -118,6 +118,35 @@ function setcamzoom(camzoom:String, time:String) {
 	FlxTween.tween(FlxG.camera, {zoom: Std.parseFloat(camzoom)}, Std.parseFloat(time), {ease: FlxEase.cubeInOut});
 	defaultCamZoom = Std.parseFloat(camzoom);
 }
+var box = new FlxSprite();
+var boxes = [];
+var boxdie = false;
+function fatalitypopup() {
+	boxdie = false;
+	trace("new box");
+	box.alpha = 1;
+	box.x = FlxG.random.int(10,600);
+	box.y = FlxG.random.int(0,800);
+	FlxG.random.resetInitialSeed();
+	box.frames = Paths.getSparrowAtlas("events/error_popups");
+	box.animation.addByPrefix("error", "idle",24,false);
+	box.animation.play("error");
+	box.cameras = [camHUD];
+	box.scale.set(2,2);
+	add(box);
+	boxes.push(box);
+
+}
+function clearpopups() {
+	boxdie = true;
+	while(boxdie = true){
+		boxes.i.animation.play("error");
+		new FlxTimer().start(.2, function(tmr:FlxTimer) {
+				boxes.i.kill();
+		});
+	}
+}
+
 function ctext(a:String, b:String) {
 	var textThing:FlxText = new FlxText();
 	textThing.text = (a);
@@ -132,4 +161,21 @@ function ctext(a:String, b:String) {
 }
 function screenshake(a:String, b:String) {
 	FlxG.camera.shake(Std.parseFloat(a), Std.parseFloat(b));
+}
+function onPsychEvent(eventName:String, value1:String, value2:String) {
+	switch(eventName){
+		case "Add Camera Zoom":
+			addcamzoom(Std.parseFloat(value1), Std.parseFloat(value2));
+		case "Hey!":
+			value2 = "hey";
+			playanim(value1,value2);
+		case "Play Animation":
+			playanim(value2,value1);
+		case "Fatality Popup":
+			fatalitypopup();
+		case "Clear Popups":
+			clearpopups();
+
+		
+	}
 }
