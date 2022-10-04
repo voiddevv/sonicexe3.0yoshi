@@ -1,5 +1,4 @@
 {
-	"global_scripts": [],
 	"songs": [
 		{
 			"scripts": [
@@ -59,6 +58,14 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "fatality"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "milk"
 		}
-	]
+	],
+	"global_scripts": []
 }

@@ -5,9 +5,9 @@
 				"Hard"
 			],
 			"char": "eggman",
-			"color": "#1056E5",
 			"name": "prey",
-			"bpm": 150
+			"bpm": 150,
+			"color": "#1056E5"
 		},
 		{
 			"difficulties": [
@@ -51,6 +51,26 @@
 			"bpm": 240,
 			"name": "fatality",
 			"color": "#A90000"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard"
+			],
+			"char": "sunky",
+			"color": "#2648FB",
+			"name": "milk",
+			"bpm": 180
+		},
+		{
+			"bpm": 134,
+			"difficulties": [
+				"Hard"
+			],
+			"displayName": null,
+			"char": "xart",
+			"name": "substantial",
+			"color": "#B2CB01"
 		}
 	]
 }

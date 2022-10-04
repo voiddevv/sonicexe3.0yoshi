@@ -1,7 +1,6 @@
-function create() {
-    FlxTween.tween(Window,{height: 720}, .3, {ease: FlxEase.cubeInOut});
-    FlxTween.tween(Window,{width: 1280}, .3, {ease: FlxEase.cubeInOut});
-}
+import haxe.iterators.StringKeyValueIterator;
+
+
 // var curmenuitem:Int = 0;
 // var menuItems:MainMenuOptions;
 // var menuthings:FlxTypedGroup<FlxSprite>;

@@ -1,36 +1,36 @@
 {
-	"skinnableGFs": [],
 	"discordRpc": null,
+	"skinnableGFs": [],
+	"locked": false,
 	"BFskins": [],
 	"downloadLink": null,
-	"locked": false,
+	"name": "sonicexe",
 	"keyNumbers": [
 		4
 	],
-	"name": "sonicexe",
-	"skinnableBFs": [],
+	"description": "",
 	"intro": {
+		"newgrounds": "newgrounds",
 		"authors": [
 			"ninjamuffin99",
 			"phantomArcade",
 			"kawaisprite",
 			"evilsk8er"
 		],
-		"newgrounds": "newgrounds",
+		"assoc": [
+			"In association",
+			"with"
+		],
 		"gameName": [
 			"Friday Night Funkin'",
 			"YoshiCrafter",
 			"Engine"
 		],
-		"assoc": [
-			"In association",
-			"with"
-		],
-		"bpm": 102,
-		"present": "present"
+		"present": "present",
+		"bpm": 102
 	},
-	"description": "",
+	"skinnableBFs": [],
 	"titleBarName": "sonicexe",
-	"GFskins": [],
-	"downloadLinkAlt": null
+	"downloadLinkAlt": null,
+	"GFskins": []
 }
