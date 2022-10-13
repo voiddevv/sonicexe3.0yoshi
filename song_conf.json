@@ -1,5 +1,4 @@
 {
-	"global_scripts": [],
 	"songs": [
 		{
 			"scripts": [
@@ -68,18 +67,19 @@
 			"name": "milk"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "substantial"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "triple-trouble-encore"
 		}
-	]
+	],
+	"global_scripts": []
 }

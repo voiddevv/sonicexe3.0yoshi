@@ -4,9 +4,10 @@
 			"difficulties": [
 				"Hard"
 			],
-			"char": "eggman",
-			"name": "prey",
+			"displayName": null,
+			"char": "eggman-pray",
 			"bpm": 150,
+			"name": "prey",
 			"color": "#1056E5"
 		},
 		{
@@ -63,12 +64,12 @@
 			"bpm": 180
 		},
 		{
-			"bpm": 134,
 			"difficulties": [
 				"Hard"
 			],
 			"displayName": null,
 			"char": "xart",
+			"bpm": 134,
 			"name": "substantial",
 			"color": "#B2CB01"
 		}
