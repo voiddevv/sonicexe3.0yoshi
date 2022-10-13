@@ -15,6 +15,7 @@ function create() {
 
     
 }
+
 function createPost() {
    
     dad.y += 50;
@@ -22,11 +23,15 @@ function createPost() {
     boyfriend.y += 100;
     boyfriend.x -= 50;
     gf.visible = false;
-    FlxTween.tween(Window,{height: 600}, 0.5);
-    FlxTween.tween(Window,{width: 800}, 0.5);
-
-
 }
-function stepHit() {
+function update() {
+    Window.width = 800;
+    Window.height = 600;
+}
+function beatHit() {
     
 }
+// function stepHit() {
+//     Window.width = 800;
+//     Window.height = 600;
+// }

@@ -162,6 +162,19 @@ function ctext(a:String, b:String) {
 function screenshake(a:String, b:String) {
 	FlxG.camera.shake(Std.parseFloat(a), Std.parseFloat(b));
 }
+function setcampos(x:String,y:String) {
+	autoCamPos = false;
+	camFollow.setPosition(x, y);
+	if(x == null && y == null){
+		autoCamPos = true;
+		var bfCamPos = boyfriend.getCamPos();
+		var dadCamPos = dad.getCamPos();
+		camFollow.setPosition(FlxMath.lerp(dadCamPos.x, bfCamPos.x, section.duetCameraSlide),
+		FlxMath.lerp(dadCamPos.y, bfCamPos.y, section.duetCameraSlide));
+
+	}
+	
+}
 function onPsychEvent(eventName:String, value1:String, value2:String) {
 	switch(eventName){
 		case "Add Camera Zoom":
@@ -175,7 +188,7 @@ function onPsychEvent(eventName:String, value1:String, value2:String) {
 			fatalitypopup();
 		case "Clear Popups":
 			clearpopups();
-
-		
+		case "Camera Follow Pos":
+			setcampos(value1,value2);
 	}
 }

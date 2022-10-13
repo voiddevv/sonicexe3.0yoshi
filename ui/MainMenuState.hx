@@ -1,6 +1,9 @@
-import haxe.iterators.StringKeyValueIterator;
 
+function update() {
 
+}
+function create() {
+}
 // var curmenuitem:Int = 0;
 // var menuItems:MainMenuOptions;
 // var menuthings:FlxTypedGroup<FlxSprite>;
